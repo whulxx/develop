@@ -57,22 +57,23 @@ public class NovelSpider {
         int num =754;*/
 
 
+        //https://www.xiashuwu.com/17758/read_435.html
         //https://www.xiashuwu.com/200542/read_821.html
         //https://www.xiashuwu.com/38294/read_1224.html
         //https://www.xiashuwu.com/112156/read_1131.html
         //https://www.xiashuwu.com/203226/read_757.html
         //String urlBase = "https://www.xiashuwu.com/55525/read_";
         //String urlBase = "https://www.xiashuwu.com/227521/read_";
-        String urlBase = "https://www.xiashuwu.com/200542/read_";
-        String basePath = "C:\\data\\200542\\";
+        String urlBase = "https://www.xiashuwu.com/17758/read_";
+        String basePath = "C:\\data\\17758\\";
         String mergePath = "C:\\data\\merge.txt";
-        String saveFilePath = "C:\\data\\200542\\txt\\";
+        String saveFilePath = "C:\\data\\17758\\txt\\";
 
         int titleOffset1 = 0;
         int titleOffset2 = 0;
         int contentOffset1 = 0;
         int contentOffset2 = 0;
-        int num =821;
+        int num =435;
 
         //保存url数组
         String[] source = new String[num];
